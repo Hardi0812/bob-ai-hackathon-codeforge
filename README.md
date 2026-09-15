@@ -1,6 +1,6 @@
-# 🚀 [Your Project Title Here]
+# 🚀 [SmartFleet AI - Supply Chain Disruption Assistant & Fleet Utilisation Optimizer]
 
-> ⚠️ **Replace everything in `[ ]` brackets with your actual content before submission.**
+> Supply Chain Disruption Assistant & Fleet Utilisation Optimizer
 
 ---
 
@@ -8,36 +8,44 @@
 
 | Field | Value |
 |---|---|
-| **Team Name** | [Your Team Name] |
-| **Track** | [AI / DevOps / Sustainability / Open] |
-| **Team Lead** | [Name] — [email@ibm.com] |
-| **Members** | [Name 1], [Name 2], [Name 3] |
+| **Team Name** | [Codeforge] |
+| **Track** | [AI] |
+| **Team Lead** | [kansara Maanya] — [24bsit023@charusat.edu.in] |
+| **Members** | [Ghona Hardi], [Vekariya Vigna], [Savaliya Tanvi] |
 
 ---
 
 ## 🎯 Problem Statement
 
-> In 2–3 sentences: What problem does your project solve? Who experiences this problem?
-
-[Describe the real-world problem your project addresses. Be specific about who the user is and what pain point they face.]
+>  Supply chain disruptions such as weather events, port strikes and
+    geopolitical crises can affect hundreds of active shipments and make
+    manual tracking difficult. Fleet assets such as trucks, containers
+    and vessels can remain idle while other routes become overloaded.
+    Cold chain shipments are especially vulnerable because temperature
+    excursions can damage sensitive cargo before the problem is discovered.
 
 ---
 
 ## 💡 Solution
 
-> In 2–3 sentences: What did you build? How does it solve the problem above?
+> SmartFleet AI is an AI-powered supply chain decision-support solution
+    that identifies shipments affected by active disruptions, recommends
+    suitable re-routing or carrier alternatives, identifies idle fleet
+    assets for redeployment, and monitors cold-chain sensor data for
+    temperature excursions. The system presents these insights through
+    a unified dashboard and provides explainable recommendations to help
+    logistics teams respond faster.
 
-[Describe your solution clearly. Explain the core mechanism — what makes it work.]
-
----
 
 ## ✨ Key Features
 
-- **Feature 1:** [Brief description — e.g., "Real-time anomaly detection using watsonx.ai"]
-- **Feature 2:** [Brief description]
-- **Feature 3:** [Brief description]
-- **Feature 4:** [Optional]
-- **Feature 5:** [Optional]
+    - "Active disruption analysis for affected shipments"
+    - "Re-routing and carrier alternative recommendations"
+    - "Idle fleet asset identification and redeployment recommendations"
+    - "Cold-chain temperature excursion detection"
+    - "Regulatory severity classification for temperature breaches"
+    - "Fleet utilisation monitoring dashboard"
+    - "AI logistics assistant for decision support"
 
 ---
 
@@ -45,51 +53,67 @@
 
 | Category | Technologies |
 |---|---|
-| **Languages** | [e.g., Python, TypeScript] |
-| **Frameworks** | [e.g., FastAPI, React] |
-| **IBM Technologies** | [e.g., watsonx.ai, IBM Bob, IBM Cloud] |
-| **Databases** | [e.g., PostgreSQL, Redis] |
-| **Other** | [e.g., Docker, GitHub Actions] |
+| **Languages** | HTML, CSS, JavaScript |
+| **Frameworks** | None — lightweight browser-based prototype |
+| **IBM Technologies** | IBM BoB Hackathon environment / AI platform integration |
+| **Databases** | None — prototype uses sample CSV/data |
+| **Other** | GitHub, GitHub Actions |
+
+> **Note:** The current prototype uses a local recommendation engine with sample logistics data. IBM AI/BoB integration should be connected according to the official hackathon environment and requirements before final submission.
 
 ---
 
 ## 📁 Repository Structure
 
-```
-├── src/                  # All source code
-├── docs/                 # Written documentation
-│   ├── problem-statement.md
-│   ├── solution-overview.md
-│   ├── architecture.md
-│   └── setup-guide.md
-├── demo/                 # Demo artifacts
-│   ├── screenshots/      # App screenshots
-│   └── demo-video-link.txt  # Link to demo video
-├── presentation/         # Slide deck
-└── submission.yaml       # Structured submission metadata
-```
+```text
+├── app/
+│   ├── index.html
+│   ├── style.css
+│   └── app.js
+│
+├── data/
+│   ├── vehicles.csv
+│   ├── deliveries.csv
+│   └── disruptions.csv
+│
+├── documentation/
+│   ├── PROJECT_DOCUMENTATION.md
+│   ├── ARCHITECTURE.md
+│   └── TEST_CASES.md
+│
+├── demo/
+│   └── DEMO_SCRIPT.md
+│
+├── screenshots/
+│   ├── dashboard_top.png
+│   ├── dashboard_details.png
+│   └── SCREENSHOTS.md
+│
+├── presentation/
+│   └── PPT_CONTENT.md
+│
+└── README.md
 
 ---
 
 ## ⚡ How to Run
 
-> **Copy these exact steps from your [`docs/setup-guide.md`](docs/setup-guide.md)**
+Option 1 — Simple Method
+Clone the repository:
+git clone https://github.com/[YOUR-GITHUB-USERNAME]/[YOUR-REPOSITORY].git
+Open the repository folder.
+Open:
+app/index.html
+The SmartFleet AI application will open in your browser.
+Option 2 — Using a Local Server
 
-```bash
-# 1. Clone the repo
-git clone https://github.com/[your-repo].git
-cd [your-repo]
+If you have Python installed:
 
-# 2. Install dependencies
-[your install command here]
+cd [YOUR-REPOSITORY]
+python -m http.server 8000
 
-# 3. Configure environment
-cp .env.example .env
-# Edit .env with your values
-
-# 4. Run the project
-[your run command here]
-```
+Then open:
+http://localhost:8000/app/
 
 ---
 
@@ -106,16 +130,22 @@ cp .env.example .env
 
 ## ⚠️ Known Limitations
 
-> Be honest — judges appreciate transparency over overclaiming.
-
-- [Limitation 1: e.g., "Authentication is mocked — not production-ready"]
-- [Limitation 2: e.g., "Only tested on Chrome"]
-- [Limitation 3: e.g., "Feature X is scaffolded but not fully implemented"]
-
+> The current prototype uses sample/fictitious fleet, delivery and disruption data.
+Real-time GPS tracking is not currently connected.
+Real-time traffic and weather APIs are not currently connected.
+The current recommendation engine is a local prototype and is not a production-grade optimisation system.
+Authentication and user management are not implemented.
+The current prototype does not use a production database.
+The AI Assistant currently responds using the application's available sample data.
+Final IBM AI/BoB integration depends on the approved hackathon environment and configuration.
 ---
 
 ## 🏅 What We're Most Proud Of
 
-[Tell the judges what part of your submission is strongest and worth paying close attention to.]
+We are proud of building a complete decision-support prototype that connects three important logistics factors — fleet utilisation, supply-chain disruptions and delivery requirements — into one application.
+
+Instead of simply displaying data, SmartFleet AI analyses the available information and provides an understandable vehicle reassignment recommendation with reasons behind the decision.
+
+The project demonstrates how AI-assisted decision support can help logistics teams respond faster to disruptions and make better use of available fleet capacity.
 
 ---
