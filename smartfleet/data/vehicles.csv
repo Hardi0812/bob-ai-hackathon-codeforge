@@ -1,0 +1,9 @@
+Vehicle ID,Capacity (kg),Current Load (kg),Location,Status
+V001,1000,800,Ahmedabad,On Delivery
+V002,1200,300,Vadodara,Available
+V003,1500,1350,Surat,On Delivery
+V004,1000,200,Ahmedabad,Available
+V005,2000,1700,Rajkot,On Delivery
+V006,1500,450,Vadodara,Available
+V007,1000,850,Ahmedabad,Delayed
+V008,1800,600,Surat,Available
