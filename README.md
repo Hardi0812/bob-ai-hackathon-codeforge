@@ -17,35 +17,30 @@
 
 ## 🎯 Problem Statement
 
->  Supply chain disruptions such as weather events, port strikes and
-    geopolitical crises can affect hundreds of active shipments and make
-    manual tracking difficult. Fleet assets such as trucks, containers
-    and vessels can remain idle while other routes become overloaded.
-    Cold chain shipments are especially vulnerable because temperature
-    excursions can damage sensitive cargo before the problem is discovered.
+> Supply-chain operations can be disrupted by road blocks, heavy traffic, vehicle breakdowns and other unexpected events. These disruptions can cause delivery delays while some fleet vehicles may remain underutilised.
+
+Logistics managers need a faster way to identify affected deliveries, understand fleet utilisation and select suitable vehicles for reassignment.
+
 
 ---
 
 ## 💡 Solution
 
-> SmartFleet AI is an AI-powered supply chain decision-support solution
-    that identifies shipments affected by active disruptions, recommends
-    suitable re-routing or carrier alternatives, identifies idle fleet
-    assets for redeployment, and monitors cold-chain sensor data for
-    temperature excursions. The system presents these insights through
-    a unified dashboard and provides explainable recommendations to help
-    logistics teams respond faster.
+> SmartFleet AI is a web-based decision-support application that monitors fleet utilisation, identifies supply-chain disruptions and analyses affected deliveries.
+
+The system evaluates vehicle availability, remaining capacity, current utilisation and disruption information to generate an explainable vehicle reassignment recommendation. It also provides an AI Assistant interface for asking logistics-related questions.
+
 
 
 ## ✨ Key Features
 
-    - "Active disruption analysis for affected shipments"
-    - "Re-routing and carrier alternative recommendations"
-    - "Idle fleet asset identification and redeployment recommendations"
-    - "Cold-chain temperature excursion detection"
-    - "Regulatory severity classification for temperature breaches"
-    - "Fleet utilisation monitoring dashboard"
-    - "AI logistics assistant for decision support"
+- **Fleet Utilisation Monitoring:** Calculates and displays the utilisation percentage of each vehicle.
+- **Disruption Detection:** Displays road blocks, heavy traffic and vehicle breakdown alerts with route, severity and expected delay.
+- **Affected Delivery Analysis:** Identifies deliveries operating on disrupted routes.
+- **AI Fleet Optimisation:** Recommends an available vehicle based on capacity, utilisation and disruption context.
+- **Explainable Recommendations:** Shows why a particular vehicle is recommended.
+- **AI Assistant:** Allows users to ask questions about fleet utilisation, disruptions, affected deliveries and recommended actions.
+- **Interactive Dashboard:** Provides a single view of fleet KPIs, utilisation and active disruptions.
 
 ---
 
