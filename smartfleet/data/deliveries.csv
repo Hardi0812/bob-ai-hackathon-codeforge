@@ -1,0 +1,6 @@
+Delivery ID,Source,Destination,Weight (kg),Priority,Status,Route
+D001,Ahmedabad,Surat,700,High,On Time,Ahmedabad-Surat
+D002,Vadodara,Rajkot,400,Medium,Pending,Vadodara-Rajkot
+D003,Ahmedabad,Surat,600,High,Delayed,Ahmedabad-Surat
+D004,Surat,Rajkot,900,Medium,On Time,Surat-Rajkot
+D005,Vadodara,Ahmedabad,500,High,Pending,Vadodara-Ahmedabad
