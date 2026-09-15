@@ -1,0 +1,4 @@
+Disruption ID,Type,Route,Severity,Expected Delay
+R001,Road Block,Ahmedabad-Surat,HIGH,2.5 hours
+R002,Heavy Traffic,Vadodara-Rajkot,MEDIUM,1 hour
+R003,Vehicle Breakdown,Surat-Rajkot,HIGH,3 hours
